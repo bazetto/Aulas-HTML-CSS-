@@ -1,0 +1,22 @@
+/*
+    ID     CLASSES , ATRIBUTOS, PSEUDO-CLASSES      ELEMENTOS E PSEUDO-ELEMENTOS
+    1       0                                           0
+    0       1                                           0
+
+*/
+
+
+ body#b.bclass p#p.p{
+     background: purple;
+ }
+
+#p {
+    background: red;
+}
+
+#p.p{
+    background: yellow;
+}
+
+
+

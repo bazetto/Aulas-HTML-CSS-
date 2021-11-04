@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.color-red{
+    color: red;
+}
+
+body div.main-content h2.heading{
+    font-style: italic;
+    color: red;
+}
+
+div{
+    color: initial;
+    margin-left: 20px;
+}
+
+.pai > .filha > .filha{
+    color: red;
+}

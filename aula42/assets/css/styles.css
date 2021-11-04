@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid;
+    max-height: 1200px;
+    grid-template-columns: repeat(auto-fill, min-max(320px, 1fr));
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.grid div{
+    background: tomato;
+    min-height: 100px;
+}
+
+.grid div:nth-child(5){
+    background: darkred;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+    .grid div:nth-child(5){
+        grid-column: span 1;
+    } 
+}
